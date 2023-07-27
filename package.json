@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "lint": "ng lint", 
+    "lint": "ng lint",
     "execute-husky": "npx husky install && npx husky add .husky/pre-commit \"npx lint-staged\""
   },
   "private": true,
@@ -26,7 +26,9 @@
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^16.1.4",
+    "@angular-eslint/builder": "^15.2.1",
     "@angular-eslint/schematics": "^16.0.3",
+    "@angular-eslint/template-parser": "^16.0.3",
     "@angular/cli": "~16.1.4",
     "@angular/compiler-cli": "^16.1.0",
     "@types/jasmine": "~4.3.0",
